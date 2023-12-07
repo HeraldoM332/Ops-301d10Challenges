@@ -7,20 +7,23 @@
 
 
 
-# Assigning a list of ten string elements
+# Ten strings elements are defined
 my_list = ["cars", "ovo", "money", "studies", "books", "test", "dirt", "tech", "honesty", "raves"]
 
-# Printing the fourth element of the list
+# Prints the fourth element 
 print("Fourth element:", my_list[3])
 
-# Printing the sixth through tenth element of the list
+# Prints 6th-10th element
 print("Sixth to tenth elements:", my_list[5:10])
 
-# Changing the value of the seventh element to "onion"
+# Changes value of element seven to "onion" using an if statement
 if len(my_list) >= 7:
     my_list[6] = "onion"
 
-# Displaying the modified list
+# Displays mofidied list
 print("Modified list:", my_list)
 
+
+
+#Done
 
